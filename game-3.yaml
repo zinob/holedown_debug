@@ -1,0 +1,523 @@
+# honor bound save file protection enabled. please don't change this file. that's totally cheating.
+version: 8
+timestamp: 2021-07-06 07:03:14Z
+timestamp_unix: 1625554994
+
+hash: 06D91EFFA192C8E18AF2128AD441F3D1
+0 : !gtype:GameController
+  balls: !glink 1
+  playfield: !glink 2
+  items: !glink 3
+  stateData: { current: Playing, last: Aiming, changeTime: 1124.338, }
+  movesUsed: 100
+  depth: -449
+  experience: 28771
+  numShatteredItems: 0
+  lastBallAddedAt: 1082.366
+  lastHitItemAt: 1093.154
+  blocksFallenThisRound: 0
+  timePlayed: 1299.754
+  fireFrom: { x: 6.097588, y: -443.75, }
+1 : !gtype:BallManager
+  balls: [ !glink 4, !glink 5, !glink 6, !glink 7, !glink 8, !glink 9, !glink 10, !glink 11, !glink 12, !glink 13, !glink 14, !glink 15, !glink 16, !glink 17, !glink 18, !glink 19, !glink 20, !glink 21, !glink 22, !glink 23, !glink 24, !glink 25, !glink 26, !glink 27, !glink 28, !glink 29, !glink 30, !glink 31, !glink 32, !glink 33, !glink 34, !glink 35, !glink 36, !glink 37, !glink 38, !glink 39, !glink 40, !glink 41, !glink 42, !glink 43, !glink 44, !glink 45, !glink 46, !glink 47, !glink 48, !glink 49, !glink 50, !glink 51, !glink 52, !glink 53, !glink 54, !glink 55, !glink 56,   ]
+  numWaiting: 40
+  home: { x: 5.780921, y: -443.75, }
+  direction: { x: NaN, y: NaN, }
+  delayAccumulator: 6.037536
+2 : !gtype:Playfield
+  generator: !glink 57
+  blocks: [ !glink 58, !glink 59, !glink 60, !glink 61, !glink 62, !glink 63, !glink 64, !glink 65, !glink 66, !glink 67, !glink 68, !glink 69, !glink 70, !glink 71, !glink 72, !glink 73, !glink 74, !glink 75,   ]
+  coreHasSpawned: False
+3 : !gtype:ItemManager
+  items: [   ]
+4 : !gtype:Ball
+  fireTime: 1124.346
+  activeDuration: 0.0168457
+  direction: { x: -0.5184148, y: -0.8551295, }
+  index: 0
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1124.362, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+5 : !gtype:Ball
+  fireTime: 1124.646
+  activeDuration: 0.1999512
+  direction: { x: -0.5184148, y: -0.8551295, }
+  index: 1
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1124.846, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+6 : !gtype:Ball
+  fireTime: 1124.887
+  activeDuration: 0.008300781
+  direction: { x: -0.5184148, y: -0.8551295, }
+  index: 2
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1124.896, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+7 : !gtype:Ball
+  fireTime: 1125.104
+  activeDuration: 0.02490234
+  direction: { x: 0, y: 0, }
+  index: 3
+  stateData: { current: Waiting, last: Active, changeTime: 1125.129, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+8 : !gtype:Ball
+  fireTime: 1125.296
+  activeDuration: 0.01660156
+  direction: { x: 0, y: 0, }
+  index: 4
+  stateData: { current: Waiting, last: Active, changeTime: 1125.312, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+9 : !gtype:Ball
+  fireTime: 1125.471
+  activeDuration: 0.008544922
+  direction: { x: 0, y: 0, }
+  index: 5
+  stateData: { current: Waiting, last: Active, changeTime: 1125.479, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+10 : !gtype:Ball
+  fireTime: 1125.629
+  activeDuration: 0.01660156
+  direction: { x: -0.8551292, y: -0.518415, }
+  index: 6
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1125.646, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+11 : !gtype:Ball
+  fireTime: 1125.779
+  activeDuration: 0.0168457
+  direction: { x: 0, y: 0, }
+  index: 7
+  stateData: { current: Waiting, last: Active, changeTime: 1125.796, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+12 : !gtype:Ball
+  fireTime: 1125.912
+  activeDuration: 0.0168457
+  direction: { x: 0, y: 0, }
+  index: 8
+  stateData: { current: Waiting, last: Active, changeTime: 1125.929, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+13 : !gtype:Ball
+  fireTime: 1126.037
+  activeDuration: 0.0168457
+  direction: { x: 0, y: 0, }
+  index: 9
+  stateData: { current: Waiting, last: Active, changeTime: 1126.054, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+14 : !gtype:Ball
+  fireTime: 1126.162
+  activeDuration: 0.008544922
+  direction: { x: 0, y: 0, }
+  index: 10
+  stateData: { current: Waiting, last: Active, changeTime: 1126.171, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+15 : !gtype:Ball
+  fireTime: 1126.271
+  activeDuration: 0.01660156
+  direction: { x: 0, y: 0, }
+  index: 11
+  stateData: { current: Waiting, last: Active, changeTime: 1126.287, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+16 : !gtype:Ball
+  fireTime: 1126.379
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 12
+  stateData: { current: Waiting, last: Active, changeTime: 1126.387, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+17 : !gtype:Ball
+  fireTime: 1126.479
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 13
+  stateData: { current: Waiting, last: Active, changeTime: 1126.487, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+18 : !gtype:Ball
+  fireTime: 1126.579
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 14
+  stateData: { current: Waiting, last: Active, changeTime: 1126.587, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+19 : !gtype:Ball
+  fireTime: 1126.679
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 15
+  stateData: { current: Waiting, last: Active, changeTime: 1126.687, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+20 : !gtype:Ball
+  fireTime: 1126.779
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 16
+  stateData: { current: Waiting, last: Active, changeTime: 1126.787, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+21 : !gtype:Ball
+  fireTime: 1126.879
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 17
+  stateData: { current: Waiting, last: Active, changeTime: 1126.887, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+22 : !gtype:Ball
+  fireTime: 1126.979
+  activeDuration: 0.1582031
+  direction: { x: 0, y: 0, }
+  index: 18
+  stateData: { current: Waiting, last: Active, changeTime: 1127.137, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+23 : !gtype:Ball
+  fireTime: 1127.079
+  activeDuration: 0.05834961
+  direction: { x: 0, y: 0, }
+  index: 19
+  stateData: { current: Waiting, last: Active, changeTime: 1127.137, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+24 : !gtype:Ball
+  fireTime: 1127.179
+  activeDuration: 0.02490234
+  direction: { x: 0, y: 0, }
+  index: 20
+  stateData: { current: Waiting, last: Active, changeTime: 1127.204, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+25 : !gtype:Ball
+  fireTime: 1127.279
+  activeDuration: 0.1916504
+  direction: { x: -0.9875057, y: -0.1575838, }
+  index: 21
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1127.471, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+26 : !gtype:Ball
+  fireTime: 1127.379
+  activeDuration: 0.09155273
+  direction: { x: -0.9875057, y: -0.1575838, }
+  index: 22
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1127.471, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+27 : !gtype:Ball
+  fireTime: 1127.479
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 23
+  stateData: { current: Waiting, last: Active, changeTime: 1127.487, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+28 : !gtype:Ball
+  fireTime: 1127.579
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 24
+  stateData: { current: Waiting, last: Active, changeTime: 1127.587, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+29 : !gtype:Ball
+  fireTime: 1127.679
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 25
+  stateData: { current: Waiting, last: Active, changeTime: 1127.687, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+30 : !gtype:Ball
+  fireTime: 1127.779
+  activeDuration: 0.008300781
+  direction: { x: -0.9875057, y: 0.1575838, }
+  index: 26
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1127.787, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+31 : !gtype:Ball
+  fireTime: 1127.879
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 27
+  stateData: { current: Waiting, last: Active, changeTime: 1127.887, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+32 : !gtype:Ball
+  fireTime: 1127.979
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 28
+  stateData: { current: Waiting, last: Active, changeTime: 1127.987, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+33 : !gtype:Ball
+  fireTime: 1128.079
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 29
+  stateData: { current: Waiting, last: Active, changeTime: 1128.087, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+34 : !gtype:Ball
+  fireTime: 1128.179
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 30
+  stateData: { current: Waiting, last: Active, changeTime: 1128.187, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+35 : !gtype:Ball
+  fireTime: 1128.279
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 31
+  stateData: { current: Waiting, last: Active, changeTime: 1128.287, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+36 : !gtype:Ball
+  fireTime: 1128.379
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 32
+  stateData: { current: Waiting, last: Active, changeTime: 1128.387, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+37 : !gtype:Ball
+  fireTime: 1128.479
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 33
+  stateData: { current: Waiting, last: Active, changeTime: 1128.487, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+38 : !gtype:Ball
+  fireTime: 1128.579
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 34
+  stateData: { current: Waiting, last: Active, changeTime: 1128.587, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+39 : !gtype:Ball
+  fireTime: 1128.679
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 35
+  stateData: { current: Waiting, last: Active, changeTime: 1128.687, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+40 : !gtype:Ball
+  fireTime: 1128.779
+  activeDuration: 0.008300781
+  direction: { x: 0, y: 0, }
+  index: 36
+  stateData: { current: Waiting, last: Active, changeTime: 1128.787, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+41 : !gtype:Ball
+  fireTime: 1128.879
+  activeDuration: 0.008300781
+  direction: { x: 0.1575831, y: -0.9875057, }
+  index: 37
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1128.887, }
+  transform: [ 6.097588, -443.75, 0, 0, 0, 0, 1 ]
+42 : !gtype:Ball
+  fireTime: 1128.979
+  activeDuration: 0.008300781
+  direction: { x: 0.1575831, y: -0.9875057, }
+  index: 38
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1128.987, }
+  transform: [ 5.994679, -443.213, 0, 0, 0, 0, 1 ]
+43 : !gtype:Ball
+  fireTime: 1129.079
+  activeDuration: 0.008300781
+  direction: { x: 0.1575831, y: -0.9875057, }
+  index: 39
+  bouncesOnWall: 1
+  stateData: { current: Waiting, last: Active, changeTime: 1129.087, }
+  transform: [ 5.658073, -441.4563, 0, 0, 0, 0, 1 ]
+44 : !gtype:Ball
+  fireTime: 1129.182
+  direction: { x: 0, y: 0, }
+  index: 40
+  stateData: { current: Active, last: Queued, changeTime: 1129.182, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+45 : !gtype:Ball
+  fireTime: 1129.282
+  direction: { x: 0, y: 0, }
+  index: 41
+  stateData: { current: Active, last: Queued, changeTime: 1129.282, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+46 : !gtype:Ball
+  fireTime: 1129.382
+  direction: { x: 0, y: 0, }
+  index: 42
+  stateData: { current: Active, last: Queued, changeTime: 1129.382, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+47 : !gtype:Ball
+  fireTime: 1129.482
+  direction: { x: 0, y: 0, }
+  index: 43
+  stateData: { current: Active, last: Queued, changeTime: 1129.482, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+48 : !gtype:Ball
+  fireTime: 1129.582
+  direction: { x: 0, y: 0, }
+  index: 44
+  stateData: { current: Active, last: Queued, changeTime: 1129.582, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+49 : !gtype:Ball
+  fireTime: 1129.682
+  direction: { x: 0, y: 0, }
+  index: 45
+  stateData: { current: Active, last: Queued, changeTime: 1129.682, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+50 : !gtype:Ball
+  fireTime: 1129.782
+  direction: { x: 0, y: 0, }
+  index: 46
+  stateData: { current: Active, last: Queued, changeTime: 1129.782, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+51 : !gtype:Ball
+  fireTime: 1129.882
+  direction: { x: 0, y: 0, }
+  index: 47
+  stateData: { current: Active, last: Queued, changeTime: 1129.882, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+52 : !gtype:Ball
+  fireTime: 1129.982
+  direction: { x: 0, y: 0, }
+  index: 48
+  stateData: { current: Active, last: Queued, changeTime: 1129.982, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+53 : !gtype:Ball
+  fireTime: 1130.082
+  direction: { x: 0, y: 0, }
+  index: 49
+  stateData: { current: Active, last: Queued, changeTime: 1130.082, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+54 : !gtype:Ball
+  fireTime: 1130.182
+  direction: { x: 0, y: 0, }
+  index: 50
+  stateData: { current: Active, last: Queued, changeTime: 1130.182, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+55 : !gtype:Ball
+  fireTime: 1130.282
+  direction: { x: 0, y: 0, }
+  index: 51
+  stateData: { current: Active, last: Queued, changeTime: 1130.282, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+56 : !gtype:Ball
+  fireTime: 1130.382
+  direction: { x: 0, y: 0, }
+  index: 52
+  stateData: { current: Active, last: Queued, changeTime: 1130.382, }
+  transform: [ 5.780921, -443.75, 0, 0, 0, 0, 1 ]
+57 : !gtype:Utilities.PlayfieldGenerator
+  generatedDepth: 463
+  holeChance: { accumulator: 0.249209247571975, }
+  doubledChance: { accumulator: 0.0147372495114804, }
+  pieceSizeChance: { bag: [   ], }
+  diamondQueue: [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,   ]
+  _random: AAEAAAD/////AQAAAAAAAAAEAQAAAA1TeXN0ZW0uUmFuZG9tAwAAAAVpbmV4dAZpbmV4dHAJU2VlZEFycmF5AAAHCAgILgAAAAwAAAAJAgAAAA8CAAAAOAAAAAgAAAAANI9cOogB5HnAh1EOX3S1EZWvvksqtTsWAeSiIrtlDU/EMhkVSGDddIZphx7hY3kmEaKtSiTCxSLsYSdhCSDGUFD7CxqLCJw8ZfW/eIecJx3CAMInA8GVAUGLrTgnSOBd7GOXHAnhI0R6yhgUexC3Dk3krETzNQI+jyHURH4TWUWiglRVQTVtfoD+UTr0Sx8QsxGjVzNR9CMHefASIRbSElEb7xq2dicdwtjqMyj8QRzugKleOErcaJossSYd9kQ7HkBNDSem3C0fSHIInmMWfBqJXxFn6vx++hbISwsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  _used: [ 392753, 458290, 392754, 196145, 130609, 130610, 65074, -462, -65999, -131535, -131534, 523827, 458291, 327218, 327219, 261682, 589362, 523826, 196146, 458289, 261683, 196147, -65998, -65997, -131533, 654899, 589363, 654900, 589364, 392755, 392756, 327220, 261684, 196148, 130611, 65075, -461, -460, -65996, -131532, 654901, 523828, 458292, 458293, 130612, 65076, 65077, -65995, -131531, 589365, 523829, 392757, 327221, 261685, 196149, 130613, -459, 654898,   ]
+  level: BlackHole
+58 : !gtype:Block
+  piece: { cells: [ 
+    { x: -1, y: -449, }, 
+    { x: 0, y: -449, }, 
+    { x: 1, y: -449, }, 
+    { x: 1, y: -450, }, 
+  ], hp: 80, support: Offscreen, }
+59 : !gtype:Block
+  piece: { cells: [ 
+    { x: 6, y: -449, }, 
+    { x: 6, y: -450, }, 
+    { x: 7, y: -450, }, 
+    { x: 6, y: -451, }, 
+  ], hp: 111, support: Offscreen, }
+60 : !gtype:Block
+  piece: { cells: [ 
+    { x: 0, y: -451, }, 
+    { x: 1, y: -451, }, 
+    { x: 2, y: -451, }, 
+    { x: 3, y: -451, }, 
+  ], isPinned: True, hp: 219, support: Pinned, }
+61 : !gtype:Block
+  piece: { cells: [ 
+    { x: 4, y: -451, }, 
+    { x: 5, y: -451, }, 
+    { x: 5, y: -452, }, 
+    { x: 6, y: -452, }, 
+  ], hp: 195, }
+62 : !gtype:Block
+  piece: { cells: [ 
+    { x: -1, y: -453, }, 
+    { x: 0, y: -453, }, 
+    { x: 1, y: -453, }, 
+  ], hp: 112, support: Offscreen, }
+63 : !gtype:Block
+  piece: { cells: [ 
+    { x: 6, y: -453, }, 
+    { x: 6, y: -454, }, 
+  ], isPinned: True, hp: 224, support: Pinned, }
+64 : !gtype:Block
+  piece: { cells: [ 
+    { x: 0, y: -454, }, 
+    { x: 1, y: -454, }, 
+  ], hp: 112, }
+65 : !gtype:Block
+  piece: { cells: [ 
+    { x: 2, y: -454, }, 
+    { x: 3, y: -454, }, 
+    { x: 4, y: -454, }, 
+  ], isPinned: True, hp: 112, support: Pinned, }
+66 : !gtype:Block
+  piece: { cells: [ 
+    { x: -2, y: -455, }, 
+    { x: -1, y: -455, }, 
+    { x: 0, y: -455, item: Diamond, }, 
+    { x: 1, y: -455, }, 
+  ], hp: 112, support: Offscreen, }
+67 : !gtype:Block
+  piece: { cells: [ 
+    { x: 3, y: -456, }, 
+    { x: 4, y: -456, }, 
+    { x: 5, y: -456, }, 
+  ], hp: 112, }
+68 : !gtype:Block
+  piece: { cells: [ 
+    { x: 2, y: -457, }, 
+    { x: 3, y: -457, }, 
+    { x: 2, y: -458, }, 
+  ], hp: 113, }
+69 : !gtype:Block
+  piece: { cells: [ 
+    { x: 4, y: -457, }, 
+    { x: 5, y: -457, }, 
+    { x: 6, y: -457, }, 
+    { x: 4, y: -458, }, 
+  ], hp: 226, }
+70 : !gtype:Block
+  piece: { cells: [ 
+    { x: 3, y: -458, }, 
+    { x: 3, y: -459, }, 
+    { x: 4, y: -459, }, 
+    { x: 5, y: -459, }, 
+  ], hp: 226, }
+71 : !gtype:Block
+  piece: { cells: [ 
+    { x: 6, y: -459, }, 
+    { x: 6, y: -460, }, 
+    { x: 7, y: -460, }, 
+  ], hp: 114, support: Offscreen, }
+72 : !gtype:Block
+  piece: { cells: [ 
+    { x: -1, y: -460, }, 
+    { x: -1, y: -461, }, 
+    { x: 0, y: -461, }, 
+    { x: 1, y: -461, }, 
+  ], hp: 114, support: Offscreen, }
+73 : !gtype:Block
+  piece: { cells: [ 
+    { x: 4, y: -460, }, 
+    { x: 5, y: -460, }, 
+    { x: 5, y: -461, }, 
+  ], hp: 114, }
+74 : !gtype:Block
+  piece: { cells: [ 
+    { x: 4, y: -461, }, 
+    { x: 4, y: -462, }, 
+  ], isPinned: True, hp: 228, support: Pinned, }
+75 : !gtype:Block
+  piece: { cells: [ 
+    { x: 5, y: -462, }, 
+    { x: 6, y: -462, }, 
+    { x: 5, y: -463, }, 
+    { x: 6, y: -463, }, 
+  ], isPinned: True, hp: 228, support: Pinned, }

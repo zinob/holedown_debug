@@ -1,0 +1,53 @@
+# honor bound save file protection enabled. please don't change this file. that's totally cheating.
+version: 8
+timestamp: 2021-07-05 23:26:08Z
+timestamp_unix: 1625527568
+
+hash: 4FD65972CA274D63BA994DCEFA670783
+0 : !gtype:PlayerData
+  inventory: !glink 1
+  tutorial: !glink 2
+  funds: 3060
+  upgradeStack: [ Moves, Moves, InventorySize, InventorySize, InventorySize, CrustPiercing, Moves, BallsBuffer, BallsBuffer, BallsBuffer, BallsStartCount, BallsBuffer, CrustPiercing, CrustPiercing, BallsStartCount, BallsBuffer, BallsStartCount, BallsBuffer, Moves, BallsBuffer, BallsBuffer, BallsBuffer, Moves, BallsBuffer, BallsBuffer, BallsStartCount, BallsBuffer, InventorySize, BallsStartCount, Moves, Moves, CrustPiercing, BallsStartCount, Moves, BallsBuffer, BallsBuffer, CrustPiercing, BallsBuffer, Moves, BallsStartCount, BallsStartCount, BallsStartCount, Moves, BallsBuffer,   ]
+  lastRound: { level: BlackHole, endReason: Crashed, depth: 315, movesUsed: 10, wasRecord: False, wasFirstBreach: False, }
+  atSurface: False
+  hasResumableGame: True
+  guid: 
+  _playMusic: False
+  _playSounds: False
+  _reduceShake: False
+  _reduceFlashing: False
+  _powerSave: False
+  _cloudSave: True
+  _gameCenter: True
+  _language: English
+  _fullscreen: True
+  records: [ 
+    { level: BlackHole, maxDepth: 1009, movesUsed: 452, endReason: Crashed, }, 
+    { level: Asteroid, maxDepth: 60, movesUsed: 12, endReason: BreachedCore, }, 
+    { level: Sun, maxDepth: 380, movesUsed: 74, endReason: BreachedCore, }, 
+    { level: Moon, maxDepth: 110, movesUsed: 43, endReason: BreachedCore, }, 
+    { level: Planetoid, maxDepth: 160, movesUsed: 60, endReason: BreachedCore, }, 
+    { level: Planet, maxDepth: 290, movesUsed: 78, endReason: BreachedCore, }, 
+  ]
+  offlineScores: [   ]
+  level: BlackHole
+1 : !gtype:Inventory
+  diamonds: 11
+2 : !gtype:TutorialManager
+  triggered: [ 
+    { tag: hello, count: 1, }, 
+    { tag: first shot controller, count: 0, }, 
+    { tag: first shot touch, count: 2, }, 
+    { tag: first shot nice, count: 2, }, 
+    { tag: warning line, count: 2, }, 
+    { tag: balls will stop, count: 2, }, 
+    { tag: limited moves, count: 2, }, 
+    { tag: attached blocks, count: 2, }, 
+    { tag: crystals, count: 2, }, 
+    { tag: moves low, count: 1, }, 
+    { tag: moves last, count: 1, }, 
+    { tag: get extra ball, count: 2, }, 
+    { tag: falling blocks, count: 2, }, 
+    { tag: diamond shatter, count: 2, }, 
+  ]
